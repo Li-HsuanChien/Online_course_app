@@ -1,0 +1,24 @@
+python -m venv venv
+djangoenv\Scripts\activate
+pip install -U -r requirements.txt
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+
+
+
+# PostgreSQL
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'Place with your password generated in Step 1',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
+INSTALLED_APPS = (
+    'standalone',
+)
+SECRET_KEY = 'SECRET KEY for this Django Project'

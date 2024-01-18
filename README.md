@@ -1,15 +1,102 @@
+# Online Course app
 
-**General Notes**
+## Overview
+A Django-based Learning Management System that simulates the online learning experience. Key features are registering users, instructors, students, courses, course lectures, functional online quizes, with django admin.Users are allowed to enroll courses, inspect them and take quizes on site. The web application supports authentication and authorization.
 
-An `onlinecourse` app has already been provided in this repo upon which you will be adding a new assesement feature.
+## Getting Started
 
-- If you want to develop the final project on Theia hosted by [IBM Developer Skills Network](https://labs.cognitiveclass.ai/), you will need to create the same project structure on Theia workspace and save it everytime you close the browser
-- Or you could develop the final project locally by setting up your own Python runtime and IDE
-- Hints for the final project are left on source code files
-- You may choose any cloud platform for deployment (default is IBM Cloud Foundry)
-- Depends on your deployment, you may choose any SQL database Django supported such as SQLite3, PostgreSQL, and MySQL (default is SQLite3)
+### Prerequisites
 
-**ER Diagram**
-For your reference, we have prepared the ER diagram design for the new assesement feature.
+- [Python](https://www.python.org/) installed
+- [Pip](https://pip.pypa.io/en/stable/) installed on your machine.
 
-![Onlinecourse ER Diagram](https://github.com/ibm-developer-skills-network/final-cloud-app-with-database/blob/master/static/media/course_images/onlinecourse_app_er.png)
+### Running the App
+
+1. Clone this repository to your local machine:
+
+    ```bash
+    git clone https://github.com/Li-HsuanChien/Online_course_app.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd Online_course_app
+    ```
+
+3.  Set up a virtual environment (optional but recommended):
+
+    ```bash
+    python -m venv venv
+    ```
+
+4. Activate the virtual environment:
+
+    - On Windows:
+
+    ```bash
+    venv\Scripts\activate
+    ```
+
+    - On Linux/macOS:
+
+    ```bash 
+    source venv/bin/activate
+    ```
+
+5. Install the required dependencies:
+
+    ```bash
+    pip install -U -r requirements.txt
+    ```
+
+6. Run the application:
+
+    ```bash
+    python manage.py makemigrations
+    python manage.py migrate
+    python manage.py runserver
+    ```
+7. The application will be listening to `http://localhost:8000/` by default.
+
+## Usage
+  **Course Management:**
+  
+  -Add and customize courses with details such as name, description, duration, and prerequisites.
+  -Organize course lectures, allowing instructors to upload multimedia content and presentations.
+
+  **Quiz Hosting:**
+
+    -Utilize Django Admin features to create and manage quizzes with varying complexities.
+    -Define quiz parameters, set answers, grade values, with diverse question types, then calulate results when submitted.
+    -Allow reviewing right and wrong answers.
+
+**User Authentication and Roles:**
+
+    -Robust authentication mechanisms ensure secure access with customizable user roles.
+
+
+## Awaiting Updates
+
+**Role focused functions**
+    
+    -Allow instructors to give feedback, grading, and other features
+    -Provide to learners User-friendly dashboards provide information on enrolled courses, upcoming lectures, and assessment deadlines.
+
+**Customization Options:**
+
+    Tailor the platform to your institution's branding with customizable themes and logos.
+    Integration capabilities with external systems for a seamless learning ecosystem.
+
+**Scalability and Performance:**
+
+    -Hosting independent sites and data base with cloud, ensuring scalability for growing user bases.
+    -Robust performance optimization guarantees a smooth and responsive experience.
+
+## Contributing
+
+Feel free to contribute to the development of this budget management system by creating issues or pull requests.
+
+## License
+
+This project is licensed under the Apache 2.0 - see the [LICENSE](LICENSE) file for details.
