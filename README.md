@@ -21,9 +21,15 @@
 
 [![Product Name Screen Shot One][product-screenshot-one]](https://github.com/Li-HsuanChien/Online_course_app)
 
+<hr>
+
 [![Product Name Screen Shot Two][product-screenshot-two]](https://github.com/Li-HsuanChien/Online_course_app)
 
+<hr>
+
 [![Product Name Screen Shot Three][product-screenshot-three]](https://github.com/Li-HsuanChien/Online_course_app)
+
+<hr>
 
 A Django-based Learning Management System that simulates the online learning experience. Key features are registering users, instructors, students, courses, course lectures, functional online quizes, with django admin.Users are allowed to enroll courses, inspect them and take quizes on site. The web application supports authentication and authorization.
 
