@@ -59,6 +59,16 @@ A Django-based Learning Management System that simulates the online learning exp
     ```
 7. The application will be listening to `http://localhost:8000/` by default.
 
+8. Create super user by executing:
+
+    ```bash
+    python manage.py createsuperuser
+    ```
+
+8. Direct to `http://localhost:8000/admin` to utilize django admin tool to set up courses and users.
+
+9. Direct to `http://localhost:8000/onlinecourse` to use the main application
+
 ## Usage
   **Course Management:**
   
