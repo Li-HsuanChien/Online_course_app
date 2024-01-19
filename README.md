@@ -93,9 +93,17 @@ A Django-based Learning Management System that simulates the online learning exp
     ```bash
         docker run -p 8000:8000 <insert-your-own-image-name>
     ```
-4. Direct to `http://localhost:8000/admin` to utilize django admin tool to set up courses and users.
+4. The application will be listening to `http://localhost:8000/` by default.
 
-5. Direct to `http://localhost:8000/onlinecourse` to use the main application
+5. Create super user by executing:
+
+    ```bash
+    python manage.py createsuperuser
+    ```
+
+6. Direct to `http://localhost:8000/admin` to utilize django admin tool to set up courses and users.
+
+7. Direct to `http://localhost:8000/onlinecourse` to use the main application
 
 ## Usage
   **Course Management:**
