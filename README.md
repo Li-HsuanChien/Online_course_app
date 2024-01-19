@@ -1,7 +1,18 @@
+<a name="readme-top"></a>
 # Online Course app
+
+### Built With
+
+* [![Django][Django]][Django-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Overview
 A Django-based Learning Management System that simulates the online learning experience. Key features are registering users, instructors, students, courses, course lectures, functional online quizes, with django admin.Users are allowed to enroll courses, inspect them and take quizes on site. The web application supports authentication and authorization.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
 
@@ -10,7 +21,11 @@ A Django-based Learning Management System that simulates the online learning exp
 - [Python](https://www.python.org/) installed
 - [Pip](https://pip.pypa.io/en/stable/) installed on your machine.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Running the App
+
+**Manual commands**
 
 1. Clone this repository to your local machine:
 
@@ -69,6 +84,8 @@ A Django-based Learning Management System that simulates the online learning exp
 
 9. Direct to `http://localhost:8000/onlinecourse` to use the main application
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 **Using Docker Containers**
 
 1. Login to Docker Hub:
@@ -107,6 +124,8 @@ A Django-based Learning Management System that simulates the online learning exp
 
 7. Direct to `http://localhost:8000/onlinecourse` to use the main application
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Usage
   **Course Management:**
   
@@ -123,6 +142,7 @@ A Django-based Learning Management System that simulates the online learning exp
 
     -Robust authentication mechanisms ensure secure access with customizable user roles.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Awaiting Updates
 
@@ -141,10 +161,23 @@ A Django-based Learning Management System that simulates the online learning exp
     -Hosting independent sites and data base with cloud, ensuring scalability for growing user bases.
     -Robust performance optimization guarantees a smooth and responsive experience.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Contributing
 
-Feel free to contribute to the development of this budget management system by creating issues or pull requests.
+Feel free to contribute to the development of this system by creating issues or pull requests.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## License
 
 This project is licensed under the Apache 2.0 - see the [LICENSE](LICENSE) file for details.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[Django]: https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white
+[Django-url]: https://www.djangoproject.com/
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
