@@ -18,6 +18,11 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Overview
+
+![Product Name Screen Shot1][product-screenshot1]
+![Product Name Screen Shot2][product-screenshot2]
+![Product Name Screen Shot3][product-screenshot3]
+
 A Django-based Learning Management System that simulates the online learning experience. Key features are registering users, instructors, students, courses, course lectures, functional online quizes, with django admin.Users are allowed to enroll courses, inspect them and take quizes on site. The web application supports authentication and authorization.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -189,7 +194,9 @@ This project is licensed under the Apache 2.0 - see the [LICENSE](LICENSE) file 
 [Django-url]: https://www.djangoproject.com/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-
+[product-screenshot1]: images/snapshot1.png
+[product-screenshot2]: images/snapshot2.png
+[product-screenshot2]: images/snapshot3.png
 [contributors-shield]: https://img.shields.io/github/contributors/Li-HsuanChien/Online_course_app.svg?style=for-the-badge
 [contributors-url]: https://github.com/Li-HsuanChien/Online_course_app/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Li-HsuanChien/Online_course_app.svg?style=for-the-badge
