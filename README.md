@@ -69,6 +69,34 @@ A Django-based Learning Management System that simulates the online learning exp
 
 9. Direct to `http://localhost:8000/onlinecourse` to use the main application
 
+**Using Docker Containers**
+
+1. Clone this repository to your local machine:
+
+    ```bash
+    git clone https://github.com/Li-HsuanChien/customer_360_app.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd customer_360_app/customer360
+    ```
+3. Build Docker image:
+
+    ```bash
+        docker build -t <insert-your-own-image-name> .
+    ```
+
+3. Run containers wth image:
+
+    ```bash
+        docker run -p 8000:8000 <insert-your-own-image-name>
+    ```
+4. Direct to `http://localhost:8000/admin` to utilize django admin tool to set up courses and users.
+
+5. Direct to `http://localhost:8000/onlinecourse` to use the main application
+
 ## Usage
   **Course Management:**
   
