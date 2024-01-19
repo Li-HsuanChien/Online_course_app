@@ -19,11 +19,11 @@
 
 ## Overview
 
-![Product Name Screen Shot One][product-screenshot-one]
+[![Product Name Screen Shot One][product-screenshot-one]](https://github.com/Li-HsuanChien/Online_course_app)
 
-![Product Name Screen Shot Two][product-screenshot-two]
+[![Product Name Screen Shot Two][product-screenshot-two]](https://github.com/Li-HsuanChien/Online_course_app)
 
-![Product Name Screen Shot Three][product-screenshot-three]
+[![Product Name Screen Shot Three][product-screenshot-three]](https://github.com/Li-HsuanChien/Online_course_app)
 
 A Django-based Learning Management System that simulates the online learning experience. Key features are registering users, instructors, students, courses, course lectures, functional online quizes, with django admin.Users are allowed to enroll courses, inspect them and take quizes on site. The web application supports authentication and authorization.
 
@@ -196,9 +196,9 @@ This project is licensed under the Apache 2.0 - see the [LICENSE](LICENSE) file 
 [Django-url]: https://www.djangoproject.com/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-[product-screenshot-one]: images/snapshot1.png
-[product-screenshot-two]: images/snapshot2.png
-[product-screenshot-three]: images/snapshot3.png
+[product-screenshot-one]: images/snapshot1.jpg
+[product-screenshot-two]: images/snapshot2.jpg
+[product-screenshot-three]: images/snapshot3.jpg
 [contributors-shield]: https://img.shields.io/github/contributors/Li-HsuanChien/Online_course_app.svg?style=for-the-badge
 [contributors-url]: https://github.com/Li-HsuanChien/Online_course_app/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Li-HsuanChien/Online_course_app.svg?style=for-the-badge
