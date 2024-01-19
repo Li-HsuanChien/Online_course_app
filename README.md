@@ -74,13 +74,13 @@ A Django-based Learning Management System that simulates the online learning exp
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/Li-HsuanChien/customer_360_app.git
+    git clone https://github.com/Li-HsuanChien/Online_course_app.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd customer_360_app/customer360
+    cd Online_course_app
     ```
 3. Build Docker image:
 
