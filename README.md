@@ -71,27 +71,29 @@ A Django-based Learning Management System that simulates the online learning exp
 
 **Using Docker Containers**
 
-1. Clone this repository to your local machine:
+1. Login to Docker Hub:
+
+    - Open a terminal or command prompt and run the following command to log in to Docker Hub:
 
     ```bash
-    git clone https://github.com/Li-HsuanChien/Online_course_app.git
+    docker login
+    ```
+    - Enter your Docker Hub username and password when prompted.
+
+2. Pull the Online Course App Image:
+
+    - Run the following command to pull the Online Course App Docker image from Docker Hub:
+
+    ```bash
+    docker pull shanechien/online_course_app
     ```
 
-2. Navigate to the project directory:
+3. Run the Container:
 
+    - Once the image is successfully pulled, you can run a container using the following command:
+    
     ```bash
-    cd Online_course_app
-    ```
-3. Build Docker image:
-
-    ```bash
-        docker build -t <insert-your-own-image-name> .
-    ```
-
-3. Run containers wth image:
-
-    ```bash
-        docker run -p 8000:8000 <insert-your-own-image-name>
+    docker run -p 8000:8000 shanechien/online_course_app
     ```
 4. The application will be listening to `http://localhost:8000/` by default.
 
