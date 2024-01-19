@@ -123,7 +123,7 @@ A Django-based Learning Management System that simulates the online learning exp
     - Run the following command to pull the Online Course App Docker image from Docker Hub:
 
     ```bash
-    docker pull shanechien/online_course_app
+    docker image pull shanechien/online_course_app
     ```
 
 3. Run the Container:
