@@ -13,7 +13,8 @@
 
 * [![Django][Django]][Django-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-
+* [![PostgreSQL][PostgreSQL.com]][PostgreSQL-url]
+ 	
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,6 +201,8 @@ This project is licensed under the Apache 2.0 - see the [LICENSE](LICENSE) file 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [Django]: https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white
 [Django-url]: https://www.djangoproject.com/
+[PostgreSQL.com]: https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white
+[PostgreSQL-url]:https://www.postgresql.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [product-screenshot-one]: images/snapshot1.jpg
