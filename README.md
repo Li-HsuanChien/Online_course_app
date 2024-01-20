@@ -34,6 +34,20 @@
 
 A Django-based Learning Management System that simulates the online learning experience. Key features are registering users, instructors, students, courses, course lectures, functional online quizes, with django admin.Users are allowed to enroll courses, inspect them and take quizes on site. The web application supports authentication and authorization.
 
+- ## Features
+
+    **Course Management:**
+    - Add and customize courses with details such as name, description, duration, and prerequisites.
+    - Organize course lectures, allowing instructors to upload multimedia content and presentations.
+
+    **Quiz Hosting:**
+    - Utilize Django Admin features to create and manage quizzes with varying complexities.
+    - Define quiz parameters, set answers, grade values, with diverse question types, then calculate results when submitted.
+    - Allow reviewing right and wrong answers.
+
+    **User Authentication and Roles:**
+    - Robust authentication mechanisms ensure secure access with customizable user roles.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
