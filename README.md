@@ -165,18 +165,19 @@ A Django-based Learning Management System that simulates the online learning exp
 ## Usage
   **Course Management:**
   
-  -Add and customize courses with details such as name, description, duration, and prerequisites.
-  -Organize course lectures, allowing instructors to upload multimedia content and presentations.
+  -create super user using ```bash python manage.py createsuperuser```
+  -navigate to http://localhost:8000/admin and login
+  -edit django models
+  -navigating to courses, questions, answers to customize courses and quizes
 
-  **Quiz Hosting:**
+  **Login:**
 
-    -Utilize Django Admin features to create and manage quizzes with varying complexities.
-    -Define quiz parameters, set answers, grade values, with diverse question types, then calulate results when submitted.
-    -Allow reviewing right and wrong answers.
+    -register and login in the site through nav bar
+    -enroll courses by clicking "Enroll" button
 
-**User Authentication and Roles:**
+**Lessons and quizes**
 
-    -Robust authentication mechanisms ensure secure access with customizable user roles.
+    -Browse through lessons and chapters with quizes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
